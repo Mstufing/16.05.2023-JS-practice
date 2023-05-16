@@ -263,3 +263,133 @@
 
 //     myResult.innerHTML = seriesResistance(myArr);
 // }
+
+// ? Task #4
+// ? Filter out Strings from an Array
+// ! ???
+
+// function filterArray(arr) {
+//     return arr.filter(elem => typeof elem === 'number')
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let myInp = document.querySelector('.inp');
+//     let myResult = document.querySelector('.result');
+//     let myArr = myInp.value.trim().split(" ");
+
+//     myResult.innerHTML = filterArray(myArr);
+// }
+
+// ? Task #5
+// ? Sort by String Length
+// todo How the way Sort() Method works with parameters ???
+
+// function sortByLength(arr) {
+//     return arr.sort((a, b) => a.length - b.length)
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let myInp = document.querySelector('.inp');
+//     let myResult = document.querySelector('.result');
+//     let myArr = myInp.value.trim().split(" ");
+
+//     myResult.innerHTML = sortByLength(myArr);
+// }
+
+// ? Task #6
+// ? Sum of Cubes
+
+// function sumOfCubes(nums) {
+//     let newArr = nums.map(elem => Math.pow(elem, 3));
+//     if (newArr.length === 0)
+//         return 0;
+//     return newArr.reduce((acc, cur) => acc + cur);
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let myInp = document.querySelector('.inp');
+//     let myResult = document.querySelector('.result');
+//     let myArr = myInp.value.trim().split(" ");
+
+//     myResult.innerHTML = sumOfCubes(myArr);
+// }
+
+// ? Task #7
+// ? Even All the Way
+
+// function getOnlyEvens(nums) {
+//     return nums.filter((elem, index) => elem % 2 === 0 && index % 2 === 0)
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let myInp = document.querySelector('.inp');
+//     let myResult = document.querySelector('.result');
+//     let myArr = myInp.value.trim().split(" ");
+
+//     myResult.innerHTML = getOnlyEvens(myArr);
+// }
+
+// ? Task #8
+// ? Sort an Array by String Length
+
+// function sortByLength(arr) {
+//     return arr.sort((a, b) => a.length - b.length)
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let myInp = document.querySelector('.inp');
+//     let myResult = document.querySelector('.result');
+//     let myArr = myInp.value.trim().split(" ");
+
+//     myResult.innerHTML = sortByLength(myArr);
+// }
+
+// ? Task #9
+// ? Burglary Series (10): Calculate Difference
+
+// function calculateDifference(obj, limit) {
+//     let myArr = Object.values(obj);
+//     let sumArr = myArr.reduce((acc, cur) => Number(acc) + Number(cur));
+//     return sumArr - limit;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let inp2 = document.querySelector(".inp2");
+//     let res = document.querySelector(".result");
+
+//     let myArr = inp1.value.trim().split(" ");
+
+//     res.innerHTML = calculateDifference(myArr, inp2.value);
+// }
+
+// ? Task #10
+// ? Is the Average of All Elements a Whole Number?
+
+// function isAvgWhole(arr) {
+//     let sum = arr.reduce((accumulator, currentValue) => Number(accumulator) + Number(currentValue));
+//     return sum % arr.length === 0;
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let res = document.querySelector(".result");
+
+//     let myArr = inp1.value.trim().split(" ");
+
+//     res.innerHTML = isAvgWhole(myArr);
+// }
