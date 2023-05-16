@@ -97,3 +97,107 @@
 
 //     myResult.innerHTML = nextElement(myArr);
 // }
+
+// ? Task #6
+// ? Capture the Rook
+
+// function canCapture([yourRook, opponentsRook]) {
+//     return yourRook[0] === opponentsRook[0] ||
+//         yourRook[yourRook.length - 1] === opponentsRook[opponentsRook.length - 1];
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let myResult = document.querySelector('.result');
+
+//     let myArr = firstInp.value.trim().split(" ");
+
+//     myResult.innerHTML = canCapture(myArr);
+// }
+
+// ? Task #7
+// ? Fix the Error: Value vs. Reference Types
+
+// // Fix this broken code!
+// function checkEquals(arr1, arr2) {
+//     if (arr1.join('') === arr2.join('')) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let secondInp = document.querySelector('.inp2');
+//     let myResult = document.querySelector('.result');
+
+//     let firstArr = firstInp.value.trim().split(" ");
+//     let secondArr = secondInp.value.trim().split(" ");
+//     myResult.innerHTML = checkEquals(firstArr, secondArr);
+// }
+
+// ? Task #8
+// ? Fix the Error / Comparing Arrays (Part #2)
+
+// // Fix this code
+// function checkEquals(arr1, arr2) {
+//     if (arr1.sort().join(" ") === arr2.sort().join(" ")) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let secondInp = document.querySelector('.inp2');
+//     let myResult = document.querySelector('.result');
+
+//     let firstArr = firstInp.value.trim().split(" ");
+//     let secondArr = secondInp.value.trim().split(" ");
+//     myResult.innerHTML = checkEquals(firstArr, secondArr);
+// }
+
+// ? Task #9
+// ? Word Endings
+
+// function addEnding(arr, ending) {
+//     let myArray = [];
+//     myArray = arr.map(elem => (elem + ending))
+//     return myArray;
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let secondInp = document.querySelector('.inp2');
+//     let myResult = document.querySelector('.result');
+
+//     let myArr = firstInp.value.trim().split(" ");
+//     myResult.innerHTML = addEnding(myArr, secondInp.value);
+// }
+
+// ? Task #10
+// ? Negate the Array of Numbers
+
+// function negate(arr) {
+//     return arr.map(elem => elem * (-1));
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let myResult = document.querySelector('.result');
+
+//     let myArr = firstInp.value.trim().split(" ");
+//     myResult.innerHTML = negate(myArr);
+// }
