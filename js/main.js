@@ -201,3 +201,65 @@
 //     let myArr = firstInp.value.trim().split(" ");
 //     myResult.innerHTML = negate(myArr);
 // }
+
+
+
+// todo ----- EASY -----
+
+// ? Task #1
+// ? Find the Smallest and Biggest Numbers
+
+// function minMax(arr) {
+//     let a = Math.min(...arr);
+//     let b = Math.max(...arr);
+//     return [a, b];
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let myResult = document.querySelector('.result');
+
+//     let myArr = firstInp.value.trim().split(" ");
+//     myResult.innerHTML = minMax(myArr);
+// }
+
+// ? Task #2
+// ? Check if One Array can be Nested in Another
+
+// function canNest(arr1, arr2) {
+//     return Math.min(...arr1) > Math.min(...arr2) && Math.max(...arr1) < Math.max(...arr2);
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let secondtInp = document.querySelector('.inp2');
+//     let myResult = document.querySelector('.result');
+
+//     let firstArr = firstInp.value.trim().split(" ");
+//     let secondArr = secondtInp.value.trim().split(" ");
+//     myResult.innerHTML = canNest(firstArr, secondArr);
+// }
+
+// ? Task #3
+// ? Sum of Resistance in Series Circuits
+
+// function seriesResistance(arr) {
+//     let myArr = arr.reduce((accumulate, curr) => Number(accumulate) + Number(curr));
+//     if (myArr <= 1.0)
+//         return `${myArr} ohm`;
+//     return `${myArr} ohms`;
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let myInp = document.querySelector('.inp');
+//     let myResult = document.querySelector('.result');
+//     let myArr = myInp.value.trim().split(" ");
+
+//     myResult.innerHTML = seriesResistance(myArr);
+// }
