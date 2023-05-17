@@ -503,3 +503,21 @@
 
 //     myRes.innerHTML = arrayOperation(firstValue, secondValue, thirdValue);
 // }
+
+// ? Task #16
+// ? Maximum Possible Total
+
+// function maxTotal(nums) {
+//     let arr = nums.sort((a, b) => a - b).slice(-5)
+//     return arr.reduce((acc, cur) => Number(acc) + Number(cur));
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let myRes = document.querySelector('.result');
+//     let firstArr = firstInp.value.trim().split(" ");
+
+//     myRes.innerHTML = maxTotal(firstArr);
+// }
