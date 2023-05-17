@@ -393,3 +393,113 @@
 
 //     res.innerHTML = isAvgWhole(myArr);
 // }
+
+// ? Task #11
+// ? Absolute Sum
+
+// function getAbsSum(arr) {
+//     let myArr = arr.map(elem => Math.abs(elem));
+//     return myArr.reduce((acc, cur) => Number(acc) + Number(cur));
+// }
+
+// let myBtn = document.querySelector(".btn");
+
+// myBtn.onclick = () => {
+//     let inp1 = document.querySelector(".inp1");
+//     let res = document.querySelector(".result");
+
+//     let myArr = inp1.value.trim().split(" ");
+
+//     res.innerHTML = getAbsSum(myArr);
+// }
+
+// ? Task #12
+// ? Find the Largest Numbers in a Group of Arrays
+// todo Try to get how apply() method works !!!
+// ! Function works properly but user can't get the result ! Check it one more time !
+
+// function findLargestNums(arr) {
+//     let newArr = [];
+//     newArr = arr.map((elem) => {
+//         return Math.max.apply(null, elem);
+//     })
+//     return newArr;
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     // let secondInp = document.querySelector('.inp2');
+//     // let thirdInp = document.querySelector('.inp3');
+//     let myRes = document.querySelector('.result');
+
+//     let firstArr = firstInp.value.trim().split(' ');
+//     // let secondArr = secondInp.value.trim().split(' ');
+//     // let thirdArr = thirdInp.value.trim().split(' ');
+
+//     myRes.innerHTML = findLargestNums(firstArr);
+// }
+
+// ? Task #13
+// ? Transform into an Array with No Duplicates
+// todo It was easy, right ? lol
+
+// function set(arr) {
+//     return arr.filter((elem, index) => arr.indexOf(elem) === index)
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let myRes = document.querySelector('.result');
+//     let firstArr = firstInp.value.trim().split(" ");
+
+//     myRes.innerHTML = set(firstArr);
+// }
+
+// ? Task #14
+// ? Phone Number Formatting
+
+// function formatPhoneNumber(numbers) {
+//     let arr = numbers.join('');
+//     return `(${arr.slice(0, 3)}) ${arr.slice(3, 6)}-${arr.slice(6, 10)}`;
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let myRes = document.querySelector('.result');
+//     let firstArr = firstInp.value.trim().split(" ");
+
+//     myRes.innerHTML = formatPhoneNumber(firstArr);
+// }
+
+// ? Task #15
+// ? Array Operation
+
+// function arrayOperation(x, y, n) {
+//     let arr = [];
+//     for (let i = x; i <= y; i++) {
+//         if (i % n === 0)
+//             arr.push(i)
+//     }
+//     return [arr];
+// }
+
+// let myButton = document.querySelector('.btn');
+
+// myButton.onclick = () => {
+//     let firstInp = document.querySelector('.inp1');
+//     let secondInp = document.querySelector('.inp2');
+//     let thirdInp = document.querySelector('.inp3');
+//     let myRes = document.querySelector('.result');
+
+//     let firstValue = firstInp.value;
+//     let secondValue = secondInp.value;
+//     let thirdValue = thirdInp.value;
+
+//     myRes.innerHTML = arrayOperation(firstValue, secondValue, thirdValue);
+// }
